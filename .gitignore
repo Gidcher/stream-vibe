@@ -1,0 +1,15 @@
+*.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+dist
+
+.env*
+.vscode/
+.idea/
+*.code-workspace
+dist/
+build/
+.cache/
+*.tmp
