@@ -1,6 +1,7 @@
 import './Header.scss'
 import Logo from "@/components/Logo";
 import classNames from "classnames";
+import Button from "@/components/Button";
 
 const Header = (props) => {
   const {
@@ -38,7 +39,7 @@ const Header = (props) => {
             {menuItems.map(({ label, href}, index) => (
               <li className="header__menu-item" key={index}>
                 <a
-                  class={classNames('header__menu-link', {
+                  className={classNames('header__menu-link', {
                     'is-active': href === url
                   })}
                   href={href}
@@ -49,6 +50,22 @@ const Header = (props) => {
             ))}
           </ul>
         </nav>
+        <div className="header__actions">
+          <Button
+            className="header__button"
+            label="Search"
+            isLabelHidden
+            mode="transparent"
+            iconName="search"
+          />
+          <Button
+            className="header__button"
+            label="Notifications"
+            isLabelHidden
+            mode="transparent"
+            iconName="notification"
+          />
+        </div>
       </div>
     </header>
   )
