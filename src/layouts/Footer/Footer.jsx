@@ -1,5 +1,5 @@
 import './Footer.scss'
-import Socials from "@/components/Socials";
+import Socials from "@/components/Socials"
 
 const Footer = () => {
   const menuItems = [
