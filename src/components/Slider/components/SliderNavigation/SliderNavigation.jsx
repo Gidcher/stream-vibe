@@ -1,6 +1,6 @@
 import './SliderNavigation.scss'
 import classNames from 'classnames'
-import Button from "@/components/Button"
+import Button from '@/components/Button'
 
 const SliderNavigation = (props) => {
   const {

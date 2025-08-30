@@ -1,5 +1,5 @@
-import Section from "@/layouts/Section"
-import Grid from "@/components/Grid"
+import Section from '@/layouts/Section'
+import Grid from '@/components/Grid'
 import planGroups from './planGroups'
 import PlanCard from '@/components/PlanCard'
 

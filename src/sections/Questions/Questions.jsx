@@ -1,7 +1,7 @@
-import Section from "@/layouts/Section"
-import Button from "@/components/Button"
-import AccordionGroup from "@/components/AccordionGroup"
-import Accordion from "@/components/Accordion"
+import Section from '@/layouts/Section'
+import Button from '@/components/Button'
+import AccordionGroup from '@/components/AccordionGroup'
+import Accordion from '@/components/Accordion'
 
 const Questions = () => {
   const questionItems = [

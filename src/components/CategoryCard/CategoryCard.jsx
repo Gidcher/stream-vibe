@@ -1,6 +1,6 @@
 import './CategoryCard.scss'
 import { Image } from 'minista'
-import Icon from "@/components/Icon"
+import Icon from '@/components/Icon'
 
 const CategoryCard = (props) => {
   const {

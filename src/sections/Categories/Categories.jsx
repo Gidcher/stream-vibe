@@ -1,8 +1,8 @@
-import Section from "@/layouts/Section"
-import CategoryCard from "@/components/CategoryCard"
-import Slider from "@/components/Slider"
-import SliderNavigation from "@/components/Slider/components/SliderNavigation"
-import categoryItems from "./categoryItems";
+import Section from '@/layouts/Section'
+import CategoryCard from '@/components/CategoryCard'
+import Slider from '@/components/Slider'
+import SliderNavigation from '@/components/Slider/components/SliderNavigation'
+import categoryItems from './categoryItems'
 
 const Categories = () => {
 

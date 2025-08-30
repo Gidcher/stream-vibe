@@ -1,7 +1,7 @@
 import './Devices.scss'
-import Section from "@/layouts/Section"
-import Grid from "@/components/Grid";
-import DeviceCard from "@/components/DeviceCard";
+import Section from '@/layouts/Section'
+import Grid from '@/components/Grid'
+import DeviceCard from '@/components/DeviceCard'
 
 const Devices = () => {
   const deviceItems = [

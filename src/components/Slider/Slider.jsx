@@ -1,7 +1,7 @@
 import 'swiper/css'
 import './Slider.scss'
-import SliderNavigation from "./components/SliderNavigation"
-import classNames from "classnames"
+import SliderNavigation from './components/SliderNavigation'
+import classNames from 'classnames'
 
 const defaultSliderParams = {
   slidesPerView: 5,
