@@ -1,5 +1,5 @@
 import './AccordionGroup.scss'
-import classNames from "classnames"
+import classNames from 'classnames'
 
 const AccordionGroup = (props) => {
   const {
