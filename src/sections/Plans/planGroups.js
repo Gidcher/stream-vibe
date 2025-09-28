@@ -57,7 +57,7 @@ const planGroups = [
         },
       },
     ]
-  }
+  },
 ]
 
 export default planGroups
