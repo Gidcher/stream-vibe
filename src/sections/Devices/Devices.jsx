@@ -1,4 +1,3 @@
-import './Devices.scss'
 import Section from '@/layouts/Section'
 import Grid from '@/components/Grid'
 import DeviceCard from '@/components/DeviceCard'
