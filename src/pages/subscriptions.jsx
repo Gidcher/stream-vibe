@@ -6,7 +6,7 @@ export const metadata = {
   title: 'Subscriptions',
 }
 
-export default function () {
+export default () => {
   return (
     <>
       <Plans />

@@ -1,38 +1,44 @@
 import Section from '@/layouts/Section'
 import Grid from '@/components/Grid'
 import DeviceCard from '@/components/DeviceCard'
+import deviceImgSrc_1 from '@/assets/images/devices/smartphones.svg'
+import deviceImgSrc_2 from '@/assets/images/devices/tablet.svg'
+import deviceImgSrc_3 from '@/assets/images/devices/smart-tv.svg'
+import deviceImgSrc_4 from '@/assets/images/devices/laptops.svg'
+import deviceImgSrc_5 from '@/assets/images/devices/gaming-consoles.svg'
+import deviceImgSrc_6 from '@/assets/images/devices/vr-headsets .svg'
 
 const Devices = () => {
   const deviceItems = [
     {
       title: 'Smartphones',
       description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
-      imgSrc: '/devices/smartphones.svg',
+      imgSrc: deviceImgSrc_1,
     },
     {
       title: 'Tablet',
       description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
-      imgSrc: '/devices/tablet.svg',
+      imgSrc: deviceImgSrc_2,
     },
     {
       title: 'Smart TV',
       description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
-      imgSrc: '/devices/smart-tv.svg',
+      imgSrc: deviceImgSrc_3,
     },
     {
       title: 'Laptops',
       description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
-      imgSrc: '/devices/laptops.svg',
+      imgSrc: deviceImgSrc_4,
     },
     {
       title: 'Gaming Consoles',
       description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
-      imgSrc: '/devices/gaming-consoles.svg',
+      imgSrc: deviceImgSrc_5,
     },
     {
       title: 'VR Headsets ',
       description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
-      imgSrc: '/devices/vr-headsets .svg',
+      imgSrc: deviceImgSrc_6,
     },
   ]
 

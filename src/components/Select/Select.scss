@@ -1,13 +1,13 @@
 .select {
-  --selectButtonArowIconUrl: url('../../assets/images/select/arrow-down_gray.svg');
+  --selectButtonArowIconUrl: url('@/assets/images/select/arrow-down_gray.svg');
   --selectButtonArowIconSize: #{fluid-to-laptop(24, 20)};
   --selectButtonGapX: #{fluid-to-laptop(6, 4)};
-  --selectButtonPaddingX: #{fluid-to-laptop(12, 8)};
+  --selectButtonPaddingX: var(--field-padding-x);
   flex-shrink: 0;
 
   &__original-control,
   &__button {
-    width: 94px;
+    width: 75px;
   }
 
   &__original-control, {

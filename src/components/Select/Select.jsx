@@ -23,7 +23,12 @@ const Select = (props) => {
     dropdown: `${id}-dropdown`,
   }
 
-  const selectedOption = options.find(({isSelected}) => isSelected) ?? options[0]
+  const selectedOptionIndex = options.findIndex(({ isSelected }) => isSelected) ?? options[0]
+  const selectedOption = options[selectedOptionIndex]
+
+  const getOptionId = (index) => {
+    return `${id}-option-${index}`
+  }
 
   return (
     <div className="select" data-js-select="">
@@ -41,6 +46,7 @@ const Select = (props) => {
         id={IDs.originalControl}
         tabIndex={-1}
         defaultValue={selectedOption.value}
+        aria-hidden={true}
         data-js-select-original-control=""
       >
         {options.map(({ value }, index) => (
@@ -58,6 +64,7 @@ const Select = (props) => {
           aria-controls={IDs.dropdown}
           aria-labelledby={IDs.label}
           tabIndex={0}
+          aria-activedescendant={getOptionId(selectedOptionIndex)}
           data-js-select-button=""
         >
           {selectedOption.value}
@@ -81,7 +88,7 @@ const Select = (props) => {
                   'is-selected': isSelected,
                   'is-current': isSelected,
                 })}
-                id={`${id}--option-${index}`}
+                id={getOptionId(index)}
                 role="option"
                 aria-selected={isSelected}
                 data-js-select-option=""

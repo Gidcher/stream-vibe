@@ -1,7 +1,7 @@
 .slider-navigation {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
 
   &--tile {
     column-gap: fluid-to-laptop(16, 12);
@@ -17,11 +17,14 @@
 
   &--rounded {
     column-gap: fluid-to-laptop(10, 8);
-    padding: fluid-to-laptop(14, 12);
 
     .slider-navigation__arrow-button {
       border-radius: 50%;
     }
+  }
+
+  &--space-between {
+    justify-content: space-between;
   }
 
   &--abs-bottom {

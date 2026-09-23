@@ -32,6 +32,7 @@ const MovieCard = (props) => {
             iconName="clock"
             iconAriaLabel="Duration"
             hasFillIcon
+            isBig
           >
             {duration}
           </Badge>
